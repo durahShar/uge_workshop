@@ -1,0 +1,47 @@
+GIT INFO
+3 directories [Staging, working directy, repo]
+	git add - adds file to staging directory
+
+Basic Git Process
+	git init 
+	git status
+	git add <file(s)>
+	git status
+	git commit -m "add msg"
+	git status
+
+INITILIZE A REP
+git init - initilize a project
+
+BASIC COMMANDS
+git status - check the status of the current HEAD
+git log - list commits
+
+COMMITING
+git commit -a -m "msg" - avoid this for now
+git commit -m "msg"
+
+BRANCHING
+git branch <branchname> - create a new branch named branchname.
+git checkout <branchname> - switch to the branch named branchname.
+git checkout -b <branchname> - create a new branch named branchname and switch to that branch.
+git branch - list all branches in the current repository and indicate which branch you're currently in.
+git branch -D <branchname> - delete the branch named branchname from the repository.
+
+MERGING
+git merge <branchname> - merge the history from branchname into the current branch.
+git add <filename> - adds file to staging
+git rm --cached <filename> - removes file from staging
+
+REMOTE 
+git clone <path> <optional new name>- create a new repository that is a clone of a remote repository.
+git remote - list all remote repositories associated with the current repository.
+git remote add <branchname> <path> - add a new remote repository to the current repository.
+
+git push <remote> <branchname>  - push your latest changes to a remote repository.
+git pull <remote> <branchname> - pull the latest changes from a remote repository to your repository.
+
+GIT FLOW - https://github.com/nvie/gitflow
+git flow init
+git flow feature start <featurename>
+git flow feature finish <featurename>
