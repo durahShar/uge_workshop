@@ -1,3 +1,5 @@
+   Hidden files will begin with [.] 
+
     1  cd /
     2  man
     3  manual
